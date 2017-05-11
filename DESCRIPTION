@@ -1,0 +1,9 @@
+Package: beamaColours
+Type: Package
+Title: BEAMA Corporate Colours
+Version: 0.1.0
+Author: Emmanuel Amoakohene
+Maintainer: <eamoakohene@gmail.com>
+Description: Pantone colours for BEAMA identity
+License: GPL
+LazyData: TRUE
