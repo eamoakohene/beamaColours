@@ -133,5 +133,54 @@
      }
 
 
+     get_lia_blue1 <- function(){
 
+       return(
+         rgb(15,68,139, maxColorValue = 255)
+       )
+     }
 
+     get_lia_blue2 <- function(){
+
+       return(
+         rgb(14,67,138, maxColorValue = 255)
+       )
+     }
+
+     get_lia_red <- function(){
+
+       return(
+         rgb(208,0,66, maxColorValue = 255)
+       )
+     }
+
+     get_lia_yellow1 <- function(){
+
+       return(
+         rgb(255,237,189, maxColorValue = 255)
+       )
+     }
+
+     get_lia_yellow2 <- function(){
+
+       return(
+         rgb(253,202,140, maxColorValue = 255)
+       )
+     }
+
+     get_lia_yellow3 <- function(){
+
+       return(
+         rgb(244,120,76, maxColorValue = 255)
+       )
+     }
+
+     get_lia_all <- function(){
+
+       return(
+         c(
+           get_lia_blue1(), get_lia_red(), get_lia_yellow3(),get_lia_yellow2(), get_lia_yellow1()
+         )
+       )
+
+     }
