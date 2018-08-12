@@ -184,3 +184,30 @@
        )
 
      }
+
+     get_cesa_blue <- function(){
+
+       return(
+         rgb(0,61,128, maxColorValue = 255)
+       )
+
+     }
+
+     get_cesa_yellow <- function(){
+
+       return(
+         rgb(247,148,29, maxColorValue = 255)
+       )
+
+     }
+
+     get_cesa_all <- function(){
+
+       return(
+         c(
+           get_cesa_blue(),  get_cesa_yellow()
+         )
+       )
+
+     }
+
