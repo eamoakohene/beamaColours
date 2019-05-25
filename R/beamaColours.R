@@ -214,9 +214,21 @@
      col2hex <- function (cname){
 
              colMat <- grDevices::col2rgb(cname)
-             rgb(
+             hx <- rgb(
                      red   = colMat[1, ]/255,
                      green = colMat[2, ]/255,
                      blue  = colMat[3, ]/255
-             )
+                )
+             hs <-  9 - nchar(hx)
+
+             if(hs >0 ){
+                 return(
+                    paste0(
+                      hx, paste0(rep('F', hs ), collapse = ''), collapse = ''
+                    )
+                  )
+             }
+
+             return( hx )
+
      }
